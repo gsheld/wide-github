@@ -10,7 +10,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*", "https://gist.github.com/*"],
+      "matches": ["https://github.yelpcorp.com/*", "https://github.yelpcorp.com/gist*"],
       "css": ["wide-github.css"],
       "js": ["wide-github-toggle.js"]
     }
